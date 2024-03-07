@@ -1,0 +1,54 @@
+.gpt3__navbar{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    padding: 2rem 6rem;
+
+}
+
+.gpt3__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gptlogo{
+    width: 62.56px;
+    height: 16.02px;
+}
+
+.gptLinkContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__navbarSign button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
+    cursor: pointer;
+    background:#FF4820;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+    
+
+
+.gptLinkContainer p,
+.gpt3__navbarSign p{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    
+}
+
